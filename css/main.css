@@ -1,0 +1,23 @@
+ body {
+   height: 100vh;
+   background: #ccc;
+ }
+
+ .carousel {
+   min-height: 99vh;
+ }
+
+ .carousel-inner>.item>img {
+   height: 85vh;
+   margin: auto;
+   max-width: 80vw;
+ }
+
+ .left-text,
+ .right-text {
+   position: absolute;
+   top: 50%;
+   z-index: 5;
+   display: inline-block;
+   margin-top: -10px;
+ }

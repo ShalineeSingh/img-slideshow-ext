@@ -1,0 +1,16 @@
+{
+  "name": "Get images",
+  "version": "1.0",
+  "manifest_version": 2,
+  "description": "Get images from a webpage",
+  "permissions": [
+    "activeTab",
+    "storage",
+    "declarativeContent"
+  ],
+  "browser_action": {
+    "default_popup": "popup.html",
+    "default_icon": "singh.png"
+  }
+
+}
