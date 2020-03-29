@@ -4,26 +4,36 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
     <link rel="stylesheet" href="css/main.css">
     <script src="script/jquery.min.js"></script>
     <script src="script/bootstrap.min.js"></script>
 </head>
 
 <body>
-
-    <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+    <div id="imageCarousel" class="carousel slide" data-ride="carousel">
         <!-- Indicators -->
         <ol class="carousel-indicators"></ol>
         <!-- Wrapper for slides -->
         <div class="carousel-inner"></div>
         <!-- Controls -->
-        <a class="left carousel-control" href="#carousel-example-generic" data-slide="prev">
-            <span class="glyphicon left-text">Previous </span>
+        <a class="left carousel-control" href="#imageCarousel" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left"> </span>
         </a>
-        <a class="right carousel-control" href="#carousel-example-generic" data-slide="next">
-            <span class="glyphicon right-text">Next</span>
+        <a class="right carousel-control" href="#imageCarousel" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right"></span>
         </a>
+    </div>
+    <div id="carouselButtons">
+        <button id="playButton" type="button" class="btn btn-default">
+            <span class="glyphicon glyphicon-play"></span>
+        </button>
+        <button id="pauseButton" type="button" class="btn btn-default">
+            <span class="glyphicon glyphicon-pause"></span>
+        </button>
+        <button id="downloadButton" type="button" class="btn btn-default">
+            <span class="glyphicon glyphicon-download-alt"></span>
+        </button>
     </div>
 </body>
 <script src='script/slideshow.js'></script>

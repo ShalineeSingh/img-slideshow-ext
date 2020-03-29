@@ -1,23 +1,21 @@
  body {
    height: 100vh;
-   background: #ccc;
  }
 
  .carousel {
-   min-height: 99vh;
+   min-height: 90%;
+ }
+
+ .carousel-control {
+   width: 10%;
  }
 
  .carousel-inner>.item>img {
-   height: 85vh;
+   height: 81vh;
    margin: auto;
-   max-width: 80vw;
+   max-width: 85vw;
  }
 
- .left-text,
- .right-text {
-   position: absolute;
-   top: 50%;
-   z-index: 5;
-   display: inline-block;
-   margin-top: -10px;
+ #carouselButtons {
+   text-align: center;
  }
