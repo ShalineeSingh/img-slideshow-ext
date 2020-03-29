@@ -20,13 +20,4 @@
   $('#pauseButton').click(function () {
     $('#imageCarousel').carousel('pause');
   });
-  $('#downloadButton').click(function () {
-    var src = $('.active').find('img').attr('src');
-    var link = document.createElement('a');
-    link.href = src;
-    link.download = 'image.jpg';
-    document.body.appendChild(link);
-    link.click();
-    document.body.removeChild(link);
-  });
 })(jQuery);
