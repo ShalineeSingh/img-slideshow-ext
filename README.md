@@ -21,4 +21,4 @@ To use Image Slideshow Chrome Extension, follow these steps:
 * Click on the extension icon and click `Start Slideshow`
 * A new tab will open with the images visible as a slideshow
 
-### For high quality pinterest images (on pinterest website), use branch `pinterest`
+#### For high quality pinterest images (on pinterest website), use branch `pinterest`
